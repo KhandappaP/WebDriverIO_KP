@@ -10,7 +10,8 @@ describe('the first Demo test', () =>{
         await $('[id="login-button"]').click
         await $('[//div[@class="bm-burger-button"]]').click
         await $('[//a[@id="logout_sidebar_link"]]').click
-        browser.pause(8000 )
+        browser.pause(5000 )
+
     
     })
 
